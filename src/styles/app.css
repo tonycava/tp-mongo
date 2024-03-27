@@ -1,0 +1,21 @@
+@import 'fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        min-height: 100vh;
+    }
+
+    :root {
+        --color-primary: #0b4f6c;
+        --color-secondary: #01baef;
+    }
+}
+
+* {
+    font-family: Poppins-regular, ubuntu, sans-serif;
+    box-sizing: border-box;
+}
